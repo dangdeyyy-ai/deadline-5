@@ -1,0 +1,126 @@
+div.container {
+  width: 100%;
+  border: 2px solid pink;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+div.Header {
+  background-color: white;
+  color: rgb(158, 31, 31);
+  text-shadow: 5px 5px #f7b3b3;
+  text-align: center;
+}
+div.N-Menu {
+  width: 97%;
+  background-color: #f7b3b3;
+  display: flex;
+  justify-content: center;
+  padding: 5px 20px;
+  border-top: 1px solid rgb(143, 21, 21);
+}
+div.N-Menu-box {
+  border-right: 1px solid blue;
+  padding-right: 10px;
+}
+div.N-Menu-Starter {
+  width: 8%;
+  text-align: center;
+  color: white;
+  border-right: 1px solid blue;
+  padding-right: 10px;
+}
+div.N-Menu-Main {
+  width: 12%;
+  text-align: center;
+  color: white;
+  border-right: 1px solid blue;
+  padding-right: 10px;
+}
+div.N-Menu-Desserts {
+  width: 8%;
+  text-align: center;
+  color: white;
+  border-right: 1px solid blue;
+  padding-right: 10px;
+}
+div.Search-bar {
+  padding-right: 10px;
+  margin-left: 5%;
+}
+
+div.Search-bar input[type="submit"] {
+  padding: 2px 6px;
+  cursor: pointer;
+}
+div.Body {
+  display: flex;
+  padding-top: 6px;
+}
+div.L-Body {
+  width: 15%;
+}
+div.L-Body-content {
+  padding: 4px;
+  margin-bottom: 4px;
+
+  color: white;
+  background-color: #f7b3b3;
+  width: 100%;
+  border-radius: 20px;
+  text-indent: 9px;
+}
+div.Main-Body {
+  padding-left: 20px;
+
+  width: 55%;
+}
+div.M-Body-Content {
+  font-size: 20px;
+  text-indent: 15px;
+  letter-spacing: 15px;
+  color: rgb(143, 21, 21);
+  margin-left: 30%;
+  width: 50%;
+  background-color: #f7b3b3;
+}
+ul {
+  margin: 0;
+}
+div.Main-Body-Form {
+  padding-top: 1px;
+}
+div.Main-Body-Form input.box,
+select.box {
+  width: 350px;
+  padding: 10px;
+  margin: 8px;
+}
+div.R-Body {
+  background-color: black;
+  width: 35%;
+  height: 520px;
+  margin-left: 80px;
+}
+div.R-Body-Header {
+  font-size: 20px;
+  color: white;
+}
+table.R-Body-Table {
+  color: white;
+  padding-left: 25px;
+  margin: 0;
+  line-height: 1;
+}
+.img-meeting {
+  width: 85%;
+}
+.img-launch {
+  width: 85%;
+}
+div.Footer {
+  padding: 0 10px 10px 10px;
+  text-align: center;
+  color: white;
+  background-color: #f7b3b3;
+}
